@@ -8,6 +8,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
 		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/styles.css" rel="stylesheet" media="all">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
@@ -17,12 +18,8 @@
 			<header class="main-header">
 				<div class="row navbar">
 
-					<div class="brand span2">
-						<a href="#"><img src="images/geode-logo.png" alt="GEODE - logo"></a>
-					</div>
-
-					<nav class="links-header span10 text-right">
-						<ul class="inline">
+					<nav class="links-header">
+						<ul class="">
 							<li>
 								<a href="#"><i class="icon-user"></i> Intranet</a>
 							</li>
@@ -34,6 +31,11 @@
 							</li>
 						</ul>
 					</nav>
+					<div class="brand span2">
+						<a href="index.html"><img src="images/geode-logo.png" alt="GEODE - logo"></a>
+					</div>
+
+
 
 				</div>
 
@@ -48,21 +50,21 @@
 
 						<div class="nav-collapse collapse">
 							<ul class="nav">
-								<li class="dropdown active">
-									<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="400" data-close-others="false" href="#">About us</a>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="400" data-close-others="false" href="#">About us <b class="caret"></b></a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Contact</a></li>
+										<li><a href="index.html">Contact</a></li>
 										<li><a href="#">Join Us</a></li>
 								  	</ul>
 								</li>
-								<li><a href="#">Structure</a></li>
+								<li class="active"><a href="intern.html">Structure</a></li>
 								<li><a href="#">Members</a></li>
 								<li><a href="#">Activities</a></li>
 								<li><a href="#">Agenda</a></li>
 								<li><a href="#">Working groups</a></li>
 								<li><a href="#">Publication</a></li>
 								<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="400" data-close-others="false" href="#">Menu dropdrop</a>
+									<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="400" data-close-others="false" href="#">Menu dropdrop <b class="caret"></b></a>
 									<ul class="dropdown-menu">
 										<li><a href="#">Lien 1</a></li>
 										<li><a href="#">Lien 2</a></li>
@@ -80,7 +82,7 @@
 			<div class="slideshow">
 				<figure>
 					<img src="images/slideshow/slide1.jpg" alt="">
-					<span class="slogan">The voice of local energy distributors<br />across Europe</span>
+					<span class="slogan hidden-phone">The voice of local energy distributors<br />across Europe</span>
 				</figure>
 			</div>
 
@@ -107,7 +109,7 @@
 						</ul>
 						<h2>H2 Titre</h2>
 						<figure class="right">
-							<img src="http://lorempixel.com/output/city-q-c-300-150-7.jpg" alt="">
+							<img src="http://lorempixel.com/350/200/" alt="">
 						</figure>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat repellendus neque voluptas iusto eum eveniet voluptates ipsum eius hic ea possimus facilis vero eos voluptatem deleniti reprehenderit odit libero doloremque alias esse? Odit veritatis eligendi nesciunt molestias saepe explicabo numquam.</p>
 						<h3>H3 Titre</h3>
