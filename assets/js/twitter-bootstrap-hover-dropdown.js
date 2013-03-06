@@ -42,10 +42,12 @@
                     $allDropdowns.removeClass('open');
 
                 window.clearTimeout(timeout);
-                $(this).addClass('open');
+                //$(this).addClass('open');
+                $(this).find('ul').slideDown(100);
             }, function() {
                 timeout = window.setTimeout(function() {
-                    $this.removeClass('open');
+                    // $this.removeClass('open');
+                    $('ul.dropdown-menu').slideUp(100);
                 }, options.delay);
             });
         });
